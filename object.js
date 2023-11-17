@@ -17,15 +17,15 @@ let car = {
     }
 }
 
-// car.printDescription();
-// console.log(car.year);
+/* car.printDescription();
+console.log(car.year);
 
-// console.log(car['year']);
-// console.log(car[1]);
+console.log(car['year']);
+console.log(car[1]);
 
-// var antherCar = {};
-// antherCar.color = 'blue';
-// console.log(antherCar.color);
+var antherCar = {};
+antherCar.color = 'blue';
+console.log(antherCar.color); */
 
 var a = {
     propertyOne:{
