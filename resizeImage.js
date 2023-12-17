@@ -11,7 +11,6 @@ function createFolderIfNotExists(folderPath) {
 }
 
 // Function to resize an image to a target aspect ratio without stretching or squeezing
-// Function to resize an image to a target aspect ratio without stretching or squeezing
 async function resizeImage(imagePath, targetAspectRatio, outputFolderPath) {
     try {
       // Get the dimensions of the original image
@@ -51,8 +50,8 @@ async function resizeImage(imagePath, targetAspectRatio, outputFolderPath) {
 
 // Function to resize all images in the "Sections" folder
 async function resizeAllImages() {
-  const inputFolderPath = 'Sections';
-  const outputFolderPath = 'Sections_resized';
+  const inputFolderPath = 'HighOctane_Feed';
+  const outputFolderPath = 'H_O_resized';
   const targetAspectRatio = 16 / 9;
 
   try {
